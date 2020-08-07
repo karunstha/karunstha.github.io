@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700');
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Kadwa', 'sans-serif';
+    align-items: center;
+}
+
+p,
+blockquote {
+    font-size: 2em;
+}
+
+#clock {
+    position: relative;
+    display:inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#clock h2{
+    position: relative;
+    color: #212121;
+    text-align: center;
+    margin-top: -20px;
+    font-weight: 700;
+    margin-left: 0.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 0.8em;
+}
+
+/* #clock #time div{
+    position: relative;
+    margin: 0 5px;
+} */
+
+#clock #time #content div div div{ 
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    background: #DC2D44;
+    margin: 0 3px;
+    color: #FFF;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border-radius: 7px;
+}
+
+#clock #time #colon{
+    color: #FFF;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+
+
+#clock #time #content  {
+    display: flex;
+    border-radius: 7px;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+
+#clock #time {
+    border-radius: 7px;
+    margin-top: 10px;
+    background: #E6434C;
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-shadow: 0px 2px 6px 2px rgb(100, 100, 100);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0px 2px 6px 2px rgb(100, 100, 100);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0px 2px 6px 2px rgb(100, 100, 100);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    padding-bottom: 10px;
+    color: #FFF;
+}
+
+#clock #time #content div div{
+    display: flex;
+    color: #FFF;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+#clock #time #content div{
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#clock #time #content div span{
+   padding-top: 20px;
+}
+
+#clock #time #content #colon{    
+    font-size:2em; 
+    margin-bottom: 40px;
+    padding-left: 5px; 
+    padding-right: 5px;
+}
+
+@media only screen and (min-width: 650px) {
+    #clock #time #content div div div{ 
+        width: 100px;
+        height: 150px;
+        margin: 0 5px;
+        font-size: 4em;
+    }
+    #clock #time #content #colon{    
+        font-size:2em; 
+        margin-bottom: 40px;
+        padding-left: 5px; 
+        padding-right: 5px;
+    }
+    #clock #time #content div{
+        color: #FFF;
+        font-weight: 700;
+        text-transform: uppercase;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    #clock #time #content div div{
+        margin-bottom: 10px;
+    }
+
+    #clock h2{
+        font-size: 1.5em;
+    }
+
+    #clock #time {
+        margin-top: 10px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 25px;
+        color: #FFF;
+        -webkit-box-shadow: 0px 3px 10px 3px rgb(143, 143, 143);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+        -moz-box-shadow:    0px 3px 10px 3px rgb(143, 143, 143);  /* Firefox 3.5 - 3.6 */
+        box-shadow:         0px 3px 10px 3px rgb(143, 143, 143);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    #clock #time #content div div div{ 
+        width: 150px;
+        height: 200px;
+        margin: 0 5px;
+        font-size: 6em;
+    }
+    #clock #time #content #colon{    
+        font-size:5em; 
+        margin-bottom: 60px;
+        padding-left: 20px; 
+        padding-right: 20px;
+    }
+    #clock #time #content div{
+        color: #FFF;
+        font-weight: 700;
+        text-transform: uppercase;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    
+    #clock #time #content div div{
+        margin-bottom: 20px;
+    }
+
+    #clock h2{
+        font-size: 1.5em;
+    }
+
+    #clock #time {
+        margin-top: 10px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        color: #FFF;
+        -webkit-box-shadow: 0px 3px 10px 3px rgb(143, 143, 143);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+        -moz-box-shadow:    0px 3px 10px 3px rgb(143, 143, 143);  /* Firefox 3.5 - 3.6 */
+        box-shadow:         0px 3px 10px 3px rgb(143, 143, 143);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    }
+}
