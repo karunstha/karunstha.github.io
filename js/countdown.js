@@ -1,4 +1,4 @@
-var finalTime = new Date("Jun 14, 2020 00:00:00").getTime();
+var finalTime = new Date("Aug 27, 2020 00:00:00").getTime();
 var interval = 0;
 var blink = false;
 var x = setInterval(function () {
