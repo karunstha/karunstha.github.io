@@ -34,8 +34,8 @@ var x = setInterval(function () {
         document.getElementById("colon").style.color = 'white';
         blink=false;
     } else {
-        document.getElementById("colon").style.color = '#E6434C';
+        document.getElementById("colon").style.color = 'blue';
         blink=true;
     }
-    interval = 10000;
+    interval = 1000000;
 }, interval);
